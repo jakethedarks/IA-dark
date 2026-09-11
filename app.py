@@ -7,7 +7,7 @@ app = Flask(__name__)
 # ============================================================
 # 🔑 CONFIGURACIÓN (Se lee desde Render > Environment)
 # ============================================================
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+OPENAI_API_KEY = os.environ.get("BotDark", "")
 DEFAULT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-3.5-turbo")
 PROXY_SECRET = os.environ.get("PROXY_SECRET", "cambia_esto")
 
